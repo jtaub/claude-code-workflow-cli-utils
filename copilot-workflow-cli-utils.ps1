@@ -61,7 +61,7 @@ Present the rewrite as a plan. After I approve, update the issue body via the Gi
 Do *not* produce an implementation plan. Your only goal is a well-specified GitHub issue.
 "@
 
-    copilot --prompt $prompt --model claude-sonnet-4.6
+    copilot --interactive $prompt --model claude-sonnet-4.6
 }
 
 function copilot-implement {
@@ -86,7 +86,7 @@ You do not need to perform any ``git`` operations, I will handle that for you.
 If the issue is ambiguous or underspecified, ask me rather than guessing.
 "@
 
-    copilot --prompt $prompt --model claude-opus-4.6
+    copilot --interactive $prompt --model claude-opus-4.6
 }
 
 function copilot-pr {
@@ -129,7 +129,7 @@ Rules:
 If the diff is large enough that the PR should probably be split, warn me and suggest how to split it instead of creating the PR.
 "@
 
-    copilot --prompt $prompt --model claude-sonnet-4.6
+    copilot --interactive $prompt --model claude-sonnet-4.6
 }
 
 function copilot-review {
@@ -157,5 +157,5 @@ If you're unsure whether a comment is valid after reading the code, ask me rathe
 If there are no comments, wait and try again using the bash command 'sleep 10m'
 "@
 
-    copilot --prompt $prompt --model claude-opus-4.6
+    copilot --interactive $prompt --model claude-opus-4.6
 }
