@@ -72,7 +72,7 @@ claude-implement() {
     return 1
   fi
 
-  claude --permission-mode plan --model claude-opus-4-6 "Use the GitHub MCP to fetch ${1} — read the issue title, description, and view any attachments such as screenshots.
+  claude --permission-mode plan --model claude-opus-4-6 --effort max "Use the GitHub MCP to fetch ${1} — read the issue title, description, and view any attachments such as screenshots.
 
 Your goal is to implement this issue. Start by understanding the requirements, then explore the relevant parts of the codebase.
 
@@ -132,7 +132,7 @@ claude-review() {
     return 1
   fi
 
-  claude --permission-mode plan --model claude-opus-4-6 "Use the GitHub MCP to fetch ${1} — both the diff and all issue-level comments.
+  claude --permission-mode plan --model claude-opus-4-6 --effort max "Use the GitHub MCP to fetch ${1} — both the diff and all issue-level comments.
 
 These comments were left by an automated reviewer and are often wrong. For each comment:
 1. Read the relevant code in the diff
