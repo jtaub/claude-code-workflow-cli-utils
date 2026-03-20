@@ -1,5 +1,5 @@
 ---
-name: pr
+name: create-pr
 description: Use when the user wants to create a pull request from the current feature branch to main
 ---
 

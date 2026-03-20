@@ -39,7 +39,7 @@ Given the well-structured spec, ask Claude to implement it with a TDD-first plan
 After completing the implementation, create a PR from the current branch:
 
 ```
-/pr
+/create-pr
 ```
 
 ### 4. Re-review Claude PR comments
@@ -47,5 +47,5 @@ After completing the implementation, create a PR from the current branch:
 This assumes that you have set up [Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions) on your repository, and that the action has finished running on the PR. This will re-review the comments left by the action, and fix any test coverage gaps.
 
 ```
-/review https://github.com/acme/app/pull/17
+/re-review https://github.com/acme/app/pull/17
 ```

@@ -1,5 +1,5 @@
 ---
-name: review
+name: re-review
 description: Use when the user wants to review a pull request, validate automated reviewer comments, and check Vitest test coverage. Invoke with /review <pr-url>
 ---
 
