@@ -1,6 +1,6 @@
 ---
 name: specs
-description: Use when the user wants to analyze requirements for a GitHub issue, refine the spec, and produce acceptance criteria. Invoke with /specs <issue-url>
+description: Use when the user wants to analyze requirements for a GitHub issue and surface ambiguities, gaps, or untestable criteria before implementation begins
 ---
 
 Use the GitHub MCP to fetch $ARGUMENTS — read the issue title, description, labels, and any comments. Skim the relevant areas of the codebase only enough to understand what the system currently does — not to plan how to change it.

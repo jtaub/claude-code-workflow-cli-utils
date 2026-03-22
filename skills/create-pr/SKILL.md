@@ -15,7 +15,7 @@ For the PR body, use exactly this format:
 
 ### ➕ Added
 
-1. (list each new user-facing feature, endpoint, component, or capability — one per line)
+1. (list each new feature, endpoint, component, or capability — one per line)
 
 ### ♻️ Changed
 

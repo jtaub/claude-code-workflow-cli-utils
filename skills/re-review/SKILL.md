@@ -1,6 +1,6 @@
 ---
 name: re-review
-description: Use when the user wants to review a pull request, validate automated reviewer comments, and check Vitest test coverage. Invoke with /review <pr-url>
+description: Use when the user wants to review a pull request that has automated reviewer comments or a Vitest coverage report to validate
 ---
 
 Use the GitHub MCP to fetch $ARGUMENTS — both the diff and all issue-level comments.
