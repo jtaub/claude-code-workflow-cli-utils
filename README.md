@@ -42,7 +42,15 @@ After completing the implementation, create a PR from the current branch:
 /create-pr
 ```
 
-### 4. Re-review Claude PR comments
+### 4. Operational readiness review
+
+Review the PR for production readiness — surfaces observability gaps and failure mode handling issues as inline PR comments. Designed for high-reliability environments where incident response information is critical.
+
+```
+/operational-readiness-review https://github.com/acme/app/pull/17
+```
+
+### 5. Re-review Claude PR comments
 
 This assumes that you have set up [Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions) on your repository, and that the action has finished running on the PR. This will re-review the comments left by the action, and fix any test coverage gaps.
 
