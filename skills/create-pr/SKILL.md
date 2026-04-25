@@ -34,5 +34,3 @@ Rules:
 - Do not list internal refactors or test additions as their own items — mention them under the feature they support
 - Do not editorialize or add commentary beyond what the diff shows
 - If a commit message is vague, read the actual diff to understand the change
-
-If the diff is large enough that the PR should probably be split, warn me and suggest how to split it instead of creating the PR.
