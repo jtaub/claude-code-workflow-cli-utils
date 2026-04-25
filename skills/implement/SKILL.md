@@ -3,7 +3,7 @@ name: implement
 description: Use when the user wants to implement a GitHub issue using a TDD approach
 ---
 
-Use the GitHub MCP to fetch $ARGUMENTS — read the issue title, description, and view any attachments such as screenshots.
+Use the `gl` CLI to fetch $ARGUMENTS — read the issue title, description, and view any attachments such as screenshots.
 
 Your goal is to implement this issue. Start by understanding the requirements, then explore the relevant parts of the codebase.
 
