@@ -3,7 +3,7 @@ name: re-review
 description: Use when the user wants to review a pull request that has automated reviewer comments or a Vitest coverage report to validate
 ---
 
-Use the `gl` CLI to fetch $ARGUMENTS — both the diff and all issue-level comments.
+Use the `gh` CLI to fetch $ARGUMENTS — both the diff and all issue-level comments.
 
 These comments were left by an automated reviewer and are often wrong. For each comment:
 1. Read the relevant code in the diff

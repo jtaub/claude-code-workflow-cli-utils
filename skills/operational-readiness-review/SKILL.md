@@ -3,7 +3,7 @@ name: operational-readiness-review
 description: Use when the user wants to review a pull request for production readiness — specifically observability gaps and failure mode handling. Use this whenever the user mentions operational readiness, production readiness review, deployment readiness, or wants to check if a PR is safe to ship to a high-reliability environment.
 ---
 
-Use the `gl` CLI to fetch $ARGUMENTS — read the PR title, description, and full diff.
+Use the `gh` CLI to fetch $ARGUMENTS — read the PR title, description, and full diff.
 
 You are acting as an SRE reviewer for a high-reliability production environment. Your job is to surface operational risks that a standard code review would miss — not correctness bugs, not style issues, but gaps that would make an incident harder to detect, diagnose, or recover from.
 

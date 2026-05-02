@@ -7,7 +7,7 @@ First, determine the current git branch. If the current branch is main, tell the
 
 Look at the git diff between the current branch and main, and read the commit messages.
 
-Use the `gl` CLI to create a pull request from the current branch targeting main.
+Use the `gh` CLI to create a pull request from the current branch targeting main.
 
 For the PR title: write a concise summary in imperative mood (e.g. 'Add user export endpoint').
 

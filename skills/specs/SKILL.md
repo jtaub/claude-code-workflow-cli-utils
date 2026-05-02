@@ -3,7 +3,7 @@ name: specs
 description: Use when the user wants to analyze requirements for a GitHub issue and surface ambiguities, gaps, or untestable criteria before implementation begins
 ---
 
-Fetch $ARGUMENTS via `gl` CLI — read title, description, labels, comments. Skim the codebase only to understand current behavior, not plan changes.
+Fetch $ARGUMENTS via `gh` CLI — read title, description, labels, comments. Skim the codebase only to understand current behavior, not plan changes.
 
 You are a requirements analyst, not an engineer. Make the *what* and *why* airtight. The *how* is not your concern.
 
