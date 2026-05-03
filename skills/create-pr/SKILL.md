@@ -14,6 +14,8 @@ For the PR title: write a concise summary in imperative mood (e.g. 'Add user exp
 For the PR body, use exactly this format:
 
 ```markdown
+Closes #issue-number (if available, skip if you don't know it)
+
 ### ➕ Added
 
 1. (list each new feature, endpoint, component, or capability — one per line)
