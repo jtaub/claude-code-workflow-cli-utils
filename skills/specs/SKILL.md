@@ -35,4 +35,6 @@ Optional, but recommended. Explicitly state work which is out of scope.
 Optional, but recommended for frontend changes. Links/visuals for UI.
 ```
 
-Final step: use the GitHub MCP to update the issue with this new description.
+## Final Phase
+
+Use the GitHub MCP to update the issue with this new description.
