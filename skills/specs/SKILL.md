@@ -35,6 +35,8 @@ Optional, but recommended. Explicitly state work which is out of scope.
 Optional, but recommended for frontend changes. Links/visuals for UI.
 ```
 
+The result should be no more than 100 lines and 5000 characters.
+
 ## Final Phase
 
 Use the GitHub MCP to update the issue with this new description.
