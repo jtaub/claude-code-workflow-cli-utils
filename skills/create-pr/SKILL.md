@@ -33,6 +33,7 @@ If a section has no items, omit it entirely.
 
 Rules:
 - Each item should be one sentence describing the what and why, not the how
+- Prefer emphasis on higher-level user-facing behavior changes and architecture changes, rather than low-level code details.
 - Do not list internal refactors or test additions as their own items — mention them under the feature they support
 - Do not editorialize or add commentary beyond what the diff shows
 - If a commit message is vague, read the actual diff to understand the change
